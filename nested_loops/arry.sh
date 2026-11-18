@@ -5,7 +5,7 @@
 declare -A arr=( [0,0]=1 [0,1]=2 [1,0]=3 [1,1]=4 )
 
 #Loop throug the rows and columns of the array
-for (( i=0; i<=1; j++ ))
+for (( i=0; i<=1; i++ ))
 do
 	for (( j=0; j<=1; j++ ))
 	do
